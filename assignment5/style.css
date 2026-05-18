@@ -1,0 +1,232 @@
+.heropage {
+    background-image: url("image/herooimage.avif");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.navdiv1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    align-items: center;
+}
+
+.nava {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-left: 50px;
+}
+
+.nava:hover {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-left: 50px;
+    border: 2px solid white;
+    padding: 10px;
+}
+
+
+.navdiv2 {
+    display: flex;
+    align-items: center;
+
+}
+
+.mainbody {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 190px;
+}
+
+
+.mainbody h1 {
+    font-size: 120px;
+    color: white;
+    font-weight: 600;
+    margin: 0px;
+    padding: 0px 0px;
+}
+
+
+.mainbody p {
+    font-size: 40px;
+    color: white;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.scndpage {
+    height: 90vh;
+    background-color: white;
+}
+
+.article {
+    font-size: 60px;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 0px;
+    margin-top: 100px;
+}
+
+.hrr {
+    width: 80px;
+    font-weight: 900;
+}
+
+.scndmaindiv {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 170px;
+    justify-items: center;
+
+}
+
+.scndinner {
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+    box-shadow: 0px 0px 20px black;
+}
+
+.scndp {
+    font-size: 20px;
+    text-align: center;
+    padding: 40px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+}
+
+.imgset {
+    width: 300px;
+}
+
+.thirdpage {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.thirdpag1 {
+    width: 50%;
+}
+
+.thirdpag1 img {
+    width: 100%;
+    height: 600px;
+}
+
+.thirdpag2 {
+    width: 50%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30;
+
+}
+
+.thirdpag2p {
+    text-align: center;
+    font-size: 70px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 0px;
+    font-family: Times, serif;
+}
+
+.thirdpag2pp {
+    padding: 40px;
+    font-size: 26px;
+}
+
+.forthpage{
+    /* display: flex; */
+    /* justify-content: center; */
+    flex-direction: column;
+    height: 70vh;
+    text-align: center;
+    
+}
+
+.forthpage h2{
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase; 
+    padding-top: 60px;   
+    font-family: 'Trebuchet MS';
+}
+
+.forthpp3{
+    display: flex;
+    justify-content: center;    
+    background-color: red;
+}
+.inputdiv{
+    padding: 18px;
+    width: 250px;
+    border-radius: 10px;
+    border: none;
+
+}
+.forthpage h2{
+    margin-bottom: 0px;
+}
+.forthpage p{
+    font-size: 18px;
+    padding: 10px 0px;
+    text-align: center;
+    margin: 0px;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS';
+}
+
+.forthbtn{
+
+    font-size: 17px;
+      border: 1p solid black;
+
+}
+
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 100px;
+  background-color: white;
+}
+.social-icons {
+  display: flex;
+  gap: 20px;
+}
+.social-icons .icon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  color: black;
+}
+.footer-links {
+  display: flex;
+  gap: 30px;
+}
+.footer-links a {
+  text-decoration: none;
+  color: black;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
