@@ -1,0 +1,517 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.divp {
+    margin: 0px;
+    text-align: center;
+    color: #fff;
+    padding: 8px;
+    font-family: 'Outfit';
+    background-color: rgb(26, 26, 66);
+}
+
+.navimage {
+    position: relative;
+    left: 150px;
+}
+
+.page1 {
+    background-image: url("./Images/main_page.webp");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.NAVBARSETTING {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 20px;
+
+    position: fixed;
+    top: 10px;
+
+    width: 95%;
+    z-index: 1000;
+}
+
+.nav1 {
+    display: flex;
+
+    gap: 30px;
+    justify-content: start;
+}
+
+.nav3 {
+    display: flex;
+    gap: 10px;
+    padding-left: 20px;
+    justify-content: end;
+}
+
+
+.lis {
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+.front1{
+
+
+    display: block;
+    gap: 30px;
+    padding: 40px;
+    padding-top: 140px;
+}
+
+
+.front1 h1 {
+    padding-top: 130px;
+    font-weight: 400;
+    font-size: 40px;
+    color: rgb(54, 33, 33);
+}
+
+.front1 p {
+    font-weight: 400;
+    margin-top: 20px;
+    font-size: 18px;
+    color: rgb(80, 60, 60);
+
+}
+
+
+
+.btnfront {
+    margin-top: 20px;
+    padding: 13px 50px;
+    border-radius: 20px;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(26, 26, 66);
+    border: 1px solid black;
+}
+
+.btnfront:hover {
+
+    background-color: white;
+    color: black;
+    transform: scale(1.05);
+    border: 1px solid black;
+
+}
+
+.page2 h1 {
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    padding: 80px;
+}
+
+.sellerdiv {
+    height: 150px;
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sellertext {
+    color: black;
+    font-size: 30px;
+    background-color: #bba3ca;
+    padding: 10px 20px;
+    border: 1px solid black;
+    transform: rotate(-2deg);
+    margin: 0;
+}
+
+
+.divboxes {
+    width: 350px;
+    height: 350px;
+    background-color: rgb(209, 179, 103);
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.page3boxes {
+    display: flex;
+    gap: 20px;
+    padding: 25px;
+    overflow-x: auto;
+    /* horizontal scrollbar */
+    overflow-y: hidden;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+}
+
+/* scrollbar styling optional */
+.page3boxes::-webkit-scrollbar {
+    height: 8px;
+}
+
+.page3boxes::-webkit-scrollbar-thumb {
+    background: gray;
+    border-radius: 10px;
+}
+
+.divboxes img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.divboxes img:hover {
+    transform: scale(1.1)
+}
+
+
+.imghead {
+    display: flex;
+    padding: 10px;
+    margin: 0px;
+    justify-content: space-between;
+
+}
+
+.imghead h3 {
+    margin: 0px;
+    border: 20px;
+    font-family: 'Outfit';
+
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px
+}
+
+.btndiv {
+    position: relative;
+    left: 270px;
+    bottom: 30px;
+}
+
+.btns {
+    padding: 10px 20px;
+    border: 0.1px solid black;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 15px;
+}
+
+.btns:hover {
+
+    background-color: rgb(26, 26, 66);
+    color: white;
+    transform: scale(1.05);
+
+
+
+}
+
+.discoversection {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.discovertext {
+    color: black;
+    font-size: 30px;
+    background-color: #faac52;
+    padding: 10px 20px;
+    border: 1px solid black;
+    transform: rotate(-2deg);
+
+    display: inline-block;
+    margin: 0;
+}
+
+.pagr4heading {
+    font-size: 40px;
+    font-family: 'Outfit';
+    font-weight: 100;
+    padding: 10px;
+}
+
+.ppdiv {
+    padding: 10px;
+}
+
+.pp {
+    font-family: 'Outfit';
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+.pp2 {
+    font-family: 'Outfit';
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.pp3 {
+    font-family: 'Outfit';
+    font-size: 15px;
+    color: grey;
+}
+
+
+
+
+
+.btns2 {
+    padding: 17px 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: rgb(26, 26, 66);
+    color: white;
+    text-transform: capitalize;
+    border: 0.1px solid black;
+}
+
+.btns2:hover {
+
+    background-color: white;
+    color: black;
+    transform: scale(1.05);
+
+}
+
+
+.border {
+    border: none;
+    height: 1px;
+    background-color: black;
+}
+
+.page4 {
+    width: 100vw;
+    height: 70vh;
+}
+
+.pagr4heading {
+    font-size: 40px;
+    font-family: 'Outfit';
+    font-weight: 100;
+    padding: 10px;
+}
+
+.inputbox {
+    position: relative;
+    width: 300px;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+
+}
+
+input {
+    margin-top: 30px;
+    width: 100%;
+    padding: 15px;
+    font-size: 30px;
+    border-radius: 10px;
+    border: 0.1px solid black;
+}
+
+.typing-text {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid black;
+
+    animation: typing 4s steps(20) infinite;
+}
+
+@keyframes typing {
+    0% {
+        width: 0;
+    }
+
+    50% {
+        width: 100px;
+    }
+
+    100% {
+        width: 0;
+    }
+}
+
+.page5 {
+    background-image: url("./Images/tresss.webp");
+    height: 300vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page5 h1 {
+    font-size: 160px;
+    font-family: 'Outfit';
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.page5 p {
+    font-size: 40px;
+    font-family: 'Outfit';
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    padding: 200px;
+    text-transform: capitalize;
+}
+
+
+
+.tagg {
+    text-align: center;
+    align-items: center;
+    color: black;
+    transition: 0.3s;
+    font-size: 30px;
+    /* width: autofit;
+    margin: auto; */
+    background-color: #5098d3;
+    padding: 10px 20px;
+    transform: rotate(-2deg);
+    text-transform: capitalize;
+    border: 1px solid black;
+    position: relative;
+    top: 20px
+}
+
+
+
+
+.btns3 {
+
+    padding: 17px 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: white;
+    color: black;
+    text-transform: capitalize;
+    border: 0.1px solid black;
+}
+
+.btns3:hover {
+    background-color: rgb(26, 26, 66);
+    color: white;
+
+    transform: scale(1.05);
+
+}
+
+@media (max-width: 768px) {
+
+
+
+
+    .NAVBARSETTING {
+        width: 90%;
+        /* margin: 20px 50px; */
+        align-items: center;
+      
+        
+    }
+
+    .nav1 {
+        display: none
+    }
+
+    .nav3 {
+        display: none
+    }
+
+
+
+
+    .front1 {
+        display: block;
+        gap: 30px;
+        padding-top: 220px;
+    }
+
+    .front1 h1 {
+        /* padding-top: 220px; */
+        font-weight: 400;
+        color: rgb(43, 30, 30);
+        font-size: 40px;
+
+    }
+
+    .front1 p {
+        display: none;
+    }
+
+
+    .navimage {
+    position: static;
+}
+
+
+    .btnfront {
+        margin-top: 20px;
+        padding: 13px 120px;
+        border-radius: 25px;
+        font-size: 18px;
+        color: white;
+        background-color: rgb(26, 26, 66);
+        border: none;
+    }
+
+    .btnfront:hover {
+
+        background-color: white;
+        color: black;
+        transform: scale(1.05);
+
+
+    }
+
+    .page2 h1 {
+        font-size: 25px;
+
+    }
+
+    
+.page5 h1 {
+    font-size: 60px;
+    padding-top: 50px;
+     
+
+}
+
+
+    .pagr4heading {
+        font-size: 30px;
+        font-family: 'Outfit';
+        font-weight: 100;
+        padding: 40px;
+    }
+
+}

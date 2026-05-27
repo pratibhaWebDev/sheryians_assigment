@@ -13,6 +13,10 @@
     align-items: center;
 }
 
+.scrolbar {
+    display: none;
+}
+
 .nava {
     text-decoration: none;
     font-size: 18px;
@@ -65,10 +69,6 @@
     margin: 0px;
 }
 
-.scndpage {
-    height: 90vh;
-    background-color: white;
-}
 
 .article {
     font-size: 60px;
@@ -76,7 +76,7 @@
     text-align: center;
     font-weight: 600;
     margin-bottom: 0px;
-    margin-top: 100px;
+    margin-top: 5%;
 }
 
 .hrr {
@@ -86,21 +86,27 @@
 
 .scndmaindiv {
     display: flex;
-    justify-content: space-around;
-    padding: 0px 170px;
+    justify-content: space-evenly;
+    /* padding: 0px 5%; */
     justify-items: center;
-
+    align-items: center;
 }
 
+.scndpage {
+    margin-bottom: 50px;
+}
+
+
 .scndinner {
-    width: 300px;
+    width: 100%;
     background-color: rgb(255, 255, 255);
     height: 400px;
+    margin: 0 30px;
     box-shadow: 0px 0px 20px black;
 }
 
 .scndp {
-    font-size: 20px;
+    font-size: 1.3rem;
     text-align: center;
     padding: 40px;
     color: black;
@@ -108,15 +114,16 @@
     margin: 0px;
 }
 
+
 .imgset {
-    width: 300px;
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
 }
 
 .thirdpage {
     display: flex;
     justify-content: center;
-
-
 }
 
 .thirdpag1 {
@@ -134,7 +141,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 30;
+    gap: 30px;
 
 }
 
@@ -152,39 +159,41 @@
     font-size: 26px;
 }
 
-.forthpage{
-    /* display: flex; */
-    /* justify-content: center; */
+.forthpage {
+   
     flex-direction: column;
     height: 70vh;
     text-align: center;
-    
+
 }
 
-.forthpage h2{
+.forthpage h2 {
     font-size: 50px;
     text-align: center;
-    text-transform: uppercase; 
-    padding-top: 60px;   
+    text-transform: uppercase;
+    padding-top: 60px;
     font-family: 'Trebuchet MS';
 }
 
-.forthpp3{
+.forthpp3 {
     display: flex;
-    justify-content: center;    
+    justify-content: center;
     background-color: red;
 }
-.inputdiv{
+
+.inputdiv {
     padding: 18px;
     width: 250px;
     border-radius: 10px;
     border: none;
 
 }
-.forthpage h2{
+
+.forthpage h2 {
     margin-bottom: 0px;
 }
-.forthpage p{
+
+.forthpage p {
     font-size: 18px;
     padding: 10px 0px;
     text-align: center;
@@ -193,40 +202,136 @@
     font-family: 'Trebuchet MS';
 }
 
-.forthbtn{
+.forthbtn {
 
     font-size: 17px;
-      border: 1p solid black;
+    border: 1p solid black;
 
 }
 
 
 .footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 60px 100px;
-  background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px;
+    background-color: white;
 }
+
 .social-icons {
-  display: flex;
-  gap: 20px;
+    display: flex;
+    gap: 20px;
 }
+
 .social-icons .icon {
-  width: 24px;
-  height: 24px;
-  cursor: pointer;
-  color: black;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    color: black;
 }
+
 .footer-links {
-  display: flex;
-  gap: 30px;
+    display: flex;
+    gap: 30px;
 }
+
 .footer-links a {
-  text-decoration: none;
-  color: black;
-  font-family: sans-serif;
-  font-weight: bold;
-  font-size: 14px;
-  letter-spacing: 1px;
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+
+/* reponsive media */
+
+
+
+@media (max-width:500px) {
+    .nava {
+        display: none
+    }
+
+
+    .scrolbar {
+        color: white;
+        display: block;
+        cursor: pointer;
+        width: 20px;
+
+    }
+
+    .scndinner {
+        max-width: 300px;
+        background-color: rgb(255, 255, 255);
+        height: 400px;
+        box-shadow: 0px 0px 20px black;
+    }
+
+
+
+
+
+    .mainbody h1 {
+        font-size: 50px;
+        color: white;
+        font-weight: 600;
+        margin: 0px;
+        padding: 0px 0px;
+    }
+
+    .scndmaindiv {
+        
+        display: flex;
+        justify-items: center;
+        flex-direction: column;
+        
+
+
+    }
+
+    .article {
+        font-size: 30px;
+        text-transform: capitalize;
+        text-align: center;
+        font-weight: 600;
+        margin-bottom: 0px;
+        margin-top: 20%;
+    }
+
+
+    .mainbody p {
+        font-size: 20px;
+        color: white;
+        font-weight: 600;
+        margin: 0px;
+    }
+
+    .scndmaindiv {
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+        margin: 0px;
+        gap: 30px;
+
+    }
+
+
+
+    .thirdpage {
+        flex-direction: column;
+    }
+
+    .thirdpag1,
+    .thirdpag2 {
+        width: 100%;
+    }
+
+    .footer {
+        display: none
+    }
+
+
 }
